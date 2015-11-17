@@ -26,6 +26,12 @@ Done animation made by [beryu/DoneHUD](https://github.com/beryu/DoneHUD) ported 
 ## Requirements
 **iOS 8**
 
+## Test drive
+
+```ruby
+pod try "DORDoneHUD"
+```
+
 ## Installation
 
 DORDoneHUD is available through [CocoaPods](http://cocoapods.org). To install
@@ -38,6 +44,8 @@ pod "DORDoneHUD"
 ## Author
 
 Paweł Bednorz, pawel.bednorz@droidsonroids.pl
+
+Check our blog! [thedroidsonroids.com/blog](http://thedroidsonroids.com/blog/)
 
 ## License
 
