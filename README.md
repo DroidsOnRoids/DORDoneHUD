@@ -1,5 +1,6 @@
 # DORDoneHUD
 
+[![CI Status](http://img.shields.io/travis/DroidsOnRoids/DORDoneHUD.svg?style=flat)](https://travis-ci.org/DroidsOnRoids/DORDoneHUD)
 [![Version](https://img.shields.io/cocoapods/v/DORDoneHUD.svg?style=flat)](http://cocoapods.org/pods/DORDoneHUD)
 [![License](https://img.shields.io/cocoapods/l/DORDoneHUD.svg?style=flat)](http://cocoapods.org/pods/DORDoneHUD)
 [![Platform](https://img.shields.io/cocoapods/p/DORDoneHUD.svg?style=flat)](http://cocoapods.org/pods/DORDoneHUD)
