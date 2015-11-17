@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DORDoneHUD_Example', :exclusive => true do
+  pod "DORDoneHUD", :path => "../"
+end
+
+target 'DORDoneHUD_Tests', :exclusive => true do
+  pod "DORDoneHUD", :path => "../"
+
+  
+end

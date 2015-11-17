@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		099E68655F58C34B18792CFF74F1D266 /* Pods-DORDoneHUD_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C16020FF02D1F2299BA70CD31FF7B3F /* Pods-DORDoneHUD_Tests-dummy.m */; };
+		2991C160625262F7CADEECB74051C4E0 /* DORDoneHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 879F3A7E7ED9C2FF93B59C082834AA83 /* DORDoneHUD-dummy.m */; };
+		2FA7F9517E000A57D827072B336010BD /* DORDoneHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE734CDCB7E0F2E43528CDA91C80577D /* DORDoneHUD.bundle */; };
+		342315892E1C72013CD5970F2A096D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		47298CB664B580FFA9468A673B0817BE /* DORDoneHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BDB171AB74360B6AE8D4ED148FE7BD /* DORDoneHUD.m */; };
+		48AD6C95DFE6804B2CE1C0BEFE99D8D5 /* DORDoneHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA9D26A093C205AAD6CF5076ECF3AFF /* DORDoneHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CB9CAC3B8C10EC8C757BED3DB7D774C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		6925D8F0298D509367B44AD4A094C984 /* Pods-DORDoneHUD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B18AFC41175FDF58483D4CAECA878312 /* Pods-DORDoneHUD_Example-dummy.m */; };
+		8910D586F2F430D7AA6AB23F1C11FB20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9DD33DFD1A32F4CF3FAFA652474716C4 /* DORDoneHUDView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E4800F82335CEF1A6F891E63978FA5C /* DORDoneHUDView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFF25DE494445770A69EDE9802D5928D /* Pods-DORDoneHUD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08726981A04C14AA5CF2C767AEED509E /* Pods-DORDoneHUD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB74E21D6F5C87B704092AA09140E381 /* DORDoneHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0AB092DA81DE5DAA702C26322D71B2 /* DORDoneHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF47BF1C9DAA5B49F5A6043D238B4330 /* Pods-DORDoneHUD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B29D9F585EE326818C3C7C6091AB42A6 /* Pods-DORDoneHUD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFA1DCE6910EAE05850E422AC67E7FAA /* DORDoneHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2504D8CFCDEF8059FD0A3E98B1E93C /* DORDoneHUDView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		195BD16E751BB6B39ECAB1DE40B76605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1B70444B9E9BE673015C1C835457E3F;
+			remoteInfo = DORDoneHUD;
+		};
+		9D79499A9CD2A760D7A2C7C931B1FC66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1B70444B9E9BE673015C1C835457E3F;
+			remoteInfo = DORDoneHUD;
+		};
+		BAEE62BA4641AD4ED08FDD6ABA6EEFAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D456BD0E011D85451D34BABDA08819;
+			remoteInfo = "DORDoneHUD-DORDoneHUD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D9C7AF98E716BEE6E48B8137547AB6 /* Pods-DORDoneHUD_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DORDoneHUD_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0546A72B1AF83FCAF7619822A40F04B8 /* Pods-DORDoneHUD_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DORDoneHUD_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		08726981A04C14AA5CF2C767AEED509E /* Pods-DORDoneHUD_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DORDoneHUD_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0B56DEE9BF5BCDF01BFF77BA16565C85 /* Pods-DORDoneHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DORDoneHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0E4800F82335CEF1A6F891E63978FA5C /* DORDoneHUDView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DORDoneHUDView.h; sourceTree = "<group>"; };
+		1646C5E7DD4B25D6A06A3610700778B9 /* Pods-DORDoneHUD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DORDoneHUD_Example-frameworks.sh"; sourceTree = "<group>"; };
+		30AB836EE5E2A15CE5E27CF8EEE06C2B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA9D26A093C205AAD6CF5076ECF3AFF /* DORDoneHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DORDoneHUD-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F2504D8CFCDEF8059FD0A3E98B1E93C /* DORDoneHUDView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DORDoneHUDView.m; sourceTree = "<group>"; };
+		49AB01F4B9DFBC696B6008A7F6E6C170 /* Pods-DORDoneHUD_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DORDoneHUD_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4B673914084037D904FB2FDA2EAE127B /* Pods-DORDoneHUD_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DORDoneHUD_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5049247CF8BF3AAC0DD637EE4F23DB47 /* Pods-DORDoneHUD_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DORDoneHUD_Example.modulemap"; sourceTree = "<group>"; };
+		665B0DD4D0F0D57D07909F3886C7E670 /* DORDoneHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DORDoneHUD.modulemap; sourceTree = "<group>"; };
+		768B3B1BEE6C615672315148EED31C3F /* Pods_DORDoneHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DORDoneHUD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BED39A76849CD986A6798CBE6697E34 /* Pods-DORDoneHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DORDoneHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		879F3A7E7ED9C2FF93B59C082834AA83 /* DORDoneHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DORDoneHUD-dummy.m"; sourceTree = "<group>"; };
+		8A2978DE9697D2B440DA5C4DCC478A29 /* DORDoneHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DORDoneHUD.xcconfig; sourceTree = "<group>"; };
+		8C16020FF02D1F2299BA70CD31FF7B3F /* Pods-DORDoneHUD_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DORDoneHUD_Tests-dummy.m"; sourceTree = "<group>"; };
+		8C319487E9D6381FCF48404BBAE218DC /* DORDoneHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DORDoneHUD-prefix.pch"; sourceTree = "<group>"; };
+		955E58F8C047849B0EDF5FC7AE458F37 /* Pods-DORDoneHUD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DORDoneHUD_Tests.modulemap"; sourceTree = "<group>"; };
+		98BDB171AB74360B6AE8D4ED148FE7BD /* DORDoneHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DORDoneHUD.m; sourceTree = "<group>"; };
+		9A0AB092DA81DE5DAA702C26322D71B2 /* DORDoneHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DORDoneHUD.h; sourceTree = "<group>"; };
+		9F74FDA4EA746F436786EEB52EF5DD6C /* DORDoneHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DORDoneHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68B3CD79252E03851B4236E292A324F /* Pods-DORDoneHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DORDoneHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AA3B9E0EF5C83914FD443CB9DD83CBF3 /* Pods-DORDoneHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DORDoneHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AF38297024357FB16BDD2B872AD21611 /* Pods-DORDoneHUD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DORDoneHUD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B18AFC41175FDF58483D4CAECA878312 /* Pods-DORDoneHUD_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DORDoneHUD_Example-dummy.m"; sourceTree = "<group>"; };
+		B29D9F585EE326818C3C7C6091AB42A6 /* Pods-DORDoneHUD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DORDoneHUD_Example-umbrella.h"; sourceTree = "<group>"; };
+		B3B35B2AB4DD8614C2975D80555D107C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C5343009A16F1AAEDAB60D5CFC27787D /* Pods-DORDoneHUD_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DORDoneHUD_Tests-resources.sh"; sourceTree = "<group>"; };
+		C6932EA44C4E0D8F64DD6DCD5548AA40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0DE4C662DC501AE7669E33A8C50E9D9 /* Pods-DORDoneHUD_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DORDoneHUD_Example-resources.sh"; sourceTree = "<group>"; };
+		EE39FD5B1F8E9680C91E02FD0285053A /* Pods_DORDoneHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DORDoneHUD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE734CDCB7E0F2E43528CDA91C80577D /* DORDoneHUD.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DORDoneHUD.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F3485C529445ACF198956192295BC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342315892E1C72013CD5970F2A096D82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E5395411C7F0B972FF3987063300EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB9CAC3B8C10EC8C757BED3DB7D774C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799AD5527F5839EF53DD480ED8F8E790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8910D586F2F430D7AA6AB23F1C11FB20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B8206073CF1ECA8118B56F1BC44415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E4C2AF9CF25301BD1FAED15F335E2DF /* DORDoneHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D0FCF83DD3BC57EE895239A236188694 /* Pod */,
+				A9D983E152C896DE3477EA4E8E17856F /* Support Files */,
+			);
+			name = DORDoneHUD;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1BE420D59C884F53178FEFBD95E84DEF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9A0AB092DA81DE5DAA702C26322D71B2 /* DORDoneHUD.h */,
+				98BDB171AB74360B6AE8D4ED148FE7BD /* DORDoneHUD.m */,
+				0E4800F82335CEF1A6F891E63978FA5C /* DORDoneHUDView.h */,
+				3F2504D8CFCDEF8059FD0A3E98B1E93C /* DORDoneHUDView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4A5EA949F9A8289E5F040D59EEE66D5F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1D0F69C1A70CAD5E9E8DE672884878D /* Pods-DORDoneHUD_Example */,
+				58B6CFF485CB1BE4866F18155AD760FE /* Pods-DORDoneHUD_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		58B6CFF485CB1BE4866F18155AD760FE /* Pods-DORDoneHUD_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C6932EA44C4E0D8F64DD6DCD5548AA40 /* Info.plist */,
+				955E58F8C047849B0EDF5FC7AE458F37 /* Pods-DORDoneHUD_Tests.modulemap */,
+				AF38297024357FB16BDD2B872AD21611 /* Pods-DORDoneHUD_Tests-acknowledgements.markdown */,
+				03D9C7AF98E716BEE6E48B8137547AB6 /* Pods-DORDoneHUD_Tests-acknowledgements.plist */,
+				8C16020FF02D1F2299BA70CD31FF7B3F /* Pods-DORDoneHUD_Tests-dummy.m */,
+				49AB01F4B9DFBC696B6008A7F6E6C170 /* Pods-DORDoneHUD_Tests-frameworks.sh */,
+				C5343009A16F1AAEDAB60D5CFC27787D /* Pods-DORDoneHUD_Tests-resources.sh */,
+				08726981A04C14AA5CF2C767AEED509E /* Pods-DORDoneHUD_Tests-umbrella.h */,
+				7BED39A76849CD986A6798CBE6697E34 /* Pods-DORDoneHUD_Tests.debug.xcconfig */,
+				AA3B9E0EF5C83914FD443CB9DD83CBF3 /* Pods-DORDoneHUD_Tests.release.xcconfig */,
+			);
+			name = "Pods-DORDoneHUD_Tests";
+			path = "Target Support Files/Pods-DORDoneHUD_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				B8DC68CA2E9A2F77BB98464DD8F06289 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DA98A5F59C97C578E3FC9817596BA2A1 /* Products */,
+				4A5EA949F9A8289E5F040D59EEE66D5F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A9D983E152C896DE3477EA4E8E17856F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				665B0DD4D0F0D57D07909F3886C7E670 /* DORDoneHUD.modulemap */,
+				8A2978DE9697D2B440DA5C4DCC478A29 /* DORDoneHUD.xcconfig */,
+				879F3A7E7ED9C2FF93B59C082834AA83 /* DORDoneHUD-dummy.m */,
+				8C319487E9D6381FCF48404BBAE218DC /* DORDoneHUD-prefix.pch */,
+				3BA9D26A093C205AAD6CF5076ECF3AFF /* DORDoneHUD-umbrella.h */,
+				B3B35B2AB4DD8614C2975D80555D107C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DORDoneHUD";
+			sourceTree = "<group>";
+		};
+		B8DC68CA2E9A2F77BB98464DD8F06289 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E4C2AF9CF25301BD1FAED15F335E2DF /* DORDoneHUD */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1D0F69C1A70CAD5E9E8DE672884878D /* Pods-DORDoneHUD_Example */ = {
+			isa = PBXGroup;
+			children = (
+				30AB836EE5E2A15CE5E27CF8EEE06C2B /* Info.plist */,
+				5049247CF8BF3AAC0DD637EE4F23DB47 /* Pods-DORDoneHUD_Example.modulemap */,
+				4B673914084037D904FB2FDA2EAE127B /* Pods-DORDoneHUD_Example-acknowledgements.markdown */,
+				0546A72B1AF83FCAF7619822A40F04B8 /* Pods-DORDoneHUD_Example-acknowledgements.plist */,
+				B18AFC41175FDF58483D4CAECA878312 /* Pods-DORDoneHUD_Example-dummy.m */,
+				1646C5E7DD4B25D6A06A3610700778B9 /* Pods-DORDoneHUD_Example-frameworks.sh */,
+				E0DE4C662DC501AE7669E33A8C50E9D9 /* Pods-DORDoneHUD_Example-resources.sh */,
+				B29D9F585EE326818C3C7C6091AB42A6 /* Pods-DORDoneHUD_Example-umbrella.h */,
+				0B56DEE9BF5BCDF01BFF77BA16565C85 /* Pods-DORDoneHUD_Example.debug.xcconfig */,
+				A68B3CD79252E03851B4236E292A324F /* Pods-DORDoneHUD_Example.release.xcconfig */,
+			);
+			name = "Pods-DORDoneHUD_Example";
+			path = "Target Support Files/Pods-DORDoneHUD_Example";
+			sourceTree = "<group>";
+		};
+		D0FCF83DD3BC57EE895239A236188694 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1BE420D59C884F53178FEFBD95E84DEF /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		DA98A5F59C97C578E3FC9817596BA2A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE734CDCB7E0F2E43528CDA91C80577D /* DORDoneHUD.bundle */,
+				9F74FDA4EA746F436786EEB52EF5DD6C /* DORDoneHUD.framework */,
+				768B3B1BEE6C615672315148EED31C3F /* Pods_DORDoneHUD_Example.framework */,
+				EE39FD5B1F8E9680C91E02FD0285053A /* Pods_DORDoneHUD_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66E7BA25D79DAEFD6A1AC52FC92FC8C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF47BF1C9DAA5B49F5A6043D238B4330 /* Pods-DORDoneHUD_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F39050973E42021E7915739BEEA82F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF25DE494445770A69EDE9802D5928D /* Pods-DORDoneHUD_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87A038B3FD9ACB0ED2A68DB32C67230 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AD6C95DFE6804B2CE1C0BEFE99D8D5 /* DORDoneHUD-umbrella.h in Headers */,
+				CB74E21D6F5C87B704092AA09140E381 /* DORDoneHUD.h in Headers */,
+				9DD33DFD1A32F4CF3FAFA652474716C4 /* DORDoneHUDView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		40096B468348D92F3CA6C9B0823EC8AD /* Pods-DORDoneHUD_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DBC57D0AC7996391474BA69DCD1683C /* Build configuration list for PBXNativeTarget "Pods-DORDoneHUD_Tests" */;
+			buildPhases = (
+				33D2F1722F3BC7DB3526B2E4B398C901 /* Sources */,
+				0F3485C529445ACF198956192295BC9C /* Frameworks */,
+				C4F39050973E42021E7915739BEEA82F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4C0153A27D51561C604357A35B6D006 /* PBXTargetDependency */,
+			);
+			name = "Pods-DORDoneHUD_Tests";
+			productName = "Pods-DORDoneHUD_Tests";
+			productReference = EE39FD5B1F8E9680C91E02FD0285053A /* Pods_DORDoneHUD_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63F5ED03B70516BC299151E59721587F /* Pods-DORDoneHUD_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846116E83B9D6ACCD7CE4A64DDCF2ADA /* Build configuration list for PBXNativeTarget "Pods-DORDoneHUD_Example" */;
+			buildPhases = (
+				CB6685801E90C953994A825626890D2F /* Sources */,
+				799AD5527F5839EF53DD480ED8F8E790 /* Frameworks */,
+				66E7BA25D79DAEFD6A1AC52FC92FC8C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CC530EA0F7C3B24351857B72E44B146 /* PBXTargetDependency */,
+			);
+			name = "Pods-DORDoneHUD_Example";
+			productName = "Pods-DORDoneHUD_Example";
+			productReference = 768B3B1BEE6C615672315148EED31C3F /* Pods_DORDoneHUD_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4D456BD0E011D85451D34BABDA08819 /* DORDoneHUD-DORDoneHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52AEA2A90E47C2C2148F5D0087C79828 /* Build configuration list for PBXNativeTarget "DORDoneHUD-DORDoneHUD" */;
+			buildPhases = (
+				66158127ABA4158C79D90E7A679F5081 /* Sources */,
+				C0B8206073CF1ECA8118B56F1BC44415 /* Frameworks */,
+				D1B8A8AEE6D03CD3CF2A151F2DA5F8C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DORDoneHUD-DORDoneHUD";
+			productName = "DORDoneHUD-DORDoneHUD";
+			productReference = FE734CDCB7E0F2E43528CDA91C80577D /* DORDoneHUD.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E1B70444B9E9BE673015C1C835457E3F /* DORDoneHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E246E97D78EA980A2E470745768C88 /* Build configuration list for PBXNativeTarget "DORDoneHUD" */;
+			buildPhases = (
+				2AD6C7E62AE5BECF5BB2BCDBDDDCE454 /* Sources */,
+				20E5395411C7F0B972FF3987063300EB /* Frameworks */,
+				1B4487AD3895DAD0BB0A046A04A647BA /* Resources */,
+				E87A038B3FD9ACB0ED2A68DB32C67230 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9388C45DC488BE8DAC642C5D009B69BB /* PBXTargetDependency */,
+			);
+			name = DORDoneHUD;
+			productName = DORDoneHUD;
+			productReference = 9F74FDA4EA746F436786EEB52EF5DD6C /* DORDoneHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DA98A5F59C97C578E3FC9817596BA2A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1B70444B9E9BE673015C1C835457E3F /* DORDoneHUD */,
+				D4D456BD0E011D85451D34BABDA08819 /* DORDoneHUD-DORDoneHUD */,
+				63F5ED03B70516BC299151E59721587F /* Pods-DORDoneHUD_Example */,
+				40096B468348D92F3CA6C9B0823EC8AD /* Pods-DORDoneHUD_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B4487AD3895DAD0BB0A046A04A647BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA7F9517E000A57D827072B336010BD /* DORDoneHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B8A8AEE6D03CD3CF2A151F2DA5F8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AD6C7E62AE5BECF5BB2BCDBDDDCE454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2991C160625262F7CADEECB74051C4E0 /* DORDoneHUD-dummy.m in Sources */,
+				47298CB664B580FFA9468A673B0817BE /* DORDoneHUD.m in Sources */,
+				FFA1DCE6910EAE05850E422AC67E7FAA /* DORDoneHUDView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D2F1722F3BC7DB3526B2E4B398C901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099E68655F58C34B18792CFF74F1D266 /* Pods-DORDoneHUD_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66158127ABA4158C79D90E7A679F5081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6685801E90C953994A825626890D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6925D8F0298D509367B44AD4A094C984 /* Pods-DORDoneHUD_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CC530EA0F7C3B24351857B72E44B146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DORDoneHUD;
+			target = E1B70444B9E9BE673015C1C835457E3F /* DORDoneHUD */;
+			targetProxy = 195BD16E751BB6B39ECAB1DE40B76605 /* PBXContainerItemProxy */;
+		};
+		9388C45DC488BE8DAC642C5D009B69BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DORDoneHUD-DORDoneHUD";
+			target = D4D456BD0E011D85451D34BABDA08819 /* DORDoneHUD-DORDoneHUD */;
+			targetProxy = BAEE62BA4641AD4ED08FDD6ABA6EEFAD /* PBXContainerItemProxy */;
+		};
+		B4C0153A27D51561C604357A35B6D006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DORDoneHUD;
+			target = E1B70444B9E9BE673015C1C835457E3F /* DORDoneHUD */;
+			targetProxy = 9D79499A9CD2A760D7A2C7C931B1FC66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45F13968B16F839C9B2ADCED3875BBC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BED39A76849CD986A6798CBE6697E34 /* Pods-DORDoneHUD_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DORDoneHUD_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DORDoneHUD_Tests/Pods-DORDoneHUD_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DORDoneHUD_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58584BC18D66746B9D3A532D10F2FBB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A68B3CD79252E03851B4236E292A324F /* Pods-DORDoneHUD_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DORDoneHUD_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DORDoneHUD_Example/Pods-DORDoneHUD_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DORDoneHUD_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6944C34CA1D2B28F02B14BF74E9D7FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2978DE9697D2B440DA5C4DCC478A29 /* DORDoneHUD.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DORDoneHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6BDCEC3CC62C6FE7110F73A6860F32B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2978DE9697D2B440DA5C4DCC478A29 /* DORDoneHUD.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DORDoneHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7351253D2863BD635817F373AB8D1068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B56DEE9BF5BCDF01BFF77BA16565C85 /* Pods-DORDoneHUD_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DORDoneHUD_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DORDoneHUD_Example/Pods-DORDoneHUD_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DORDoneHUD_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BF1C5A6CB72DDE23500ED25D2D97F4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2978DE9697D2B440DA5C4DCC478A29 /* DORDoneHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DORDoneHUD/DORDoneHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DORDoneHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DORDoneHUD/DORDoneHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DORDoneHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C73E2421B47598CAAFC817E8095682AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3B9E0EF5C83914FD443CB9DD83CBF3 /* Pods-DORDoneHUD_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DORDoneHUD_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DORDoneHUD_Tests/Pods-DORDoneHUD_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DORDoneHUD_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFB80633529221995A7BD5ABC7A43BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2978DE9697D2B440DA5C4DCC478A29 /* DORDoneHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DORDoneHUD/DORDoneHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DORDoneHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DORDoneHUD/DORDoneHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DORDoneHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31E246E97D78EA980A2E470745768C88 /* Build configuration list for PBXNativeTarget "DORDoneHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1C5A6CB72DDE23500ED25D2D97F4DC /* Debug */,
+				EFB80633529221995A7BD5ABC7A43BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DBC57D0AC7996391474BA69DCD1683C /* Build configuration list for PBXNativeTarget "Pods-DORDoneHUD_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F13968B16F839C9B2ADCED3875BBC0 /* Debug */,
+				C73E2421B47598CAAFC817E8095682AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52AEA2A90E47C2C2148F5D0087C79828 /* Build configuration list for PBXNativeTarget "DORDoneHUD-DORDoneHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6944C34CA1D2B28F02B14BF74E9D7FF9 /* Debug */,
+				6BDCEC3CC62C6FE7110F73A6860F32B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846116E83B9D6ACCD7CE4A64DDCF2ADA /* Build configuration list for PBXNativeTarget "Pods-DORDoneHUD_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7351253D2863BD635817F373AB8D1068 /* Debug */,
+				58584BC18D66746B9D3A532D10F2FBB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

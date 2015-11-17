@@ -1,0 +1,14 @@
+PODS:
+  - DORDoneHUD (0.1.0)
+
+DEPENDENCIES:
+  - DORDoneHUD (from `../`)
+
+EXTERNAL SOURCES:
+  DORDoneHUD:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DORDoneHUD: 8a2f97f22fe99d808a2b1d7358bc6ec9daeead7a
+
+COCOAPODS: 0.39.0
